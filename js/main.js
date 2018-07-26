@@ -118,8 +118,8 @@ jQuery(document).ready(function( $ ) {
 
 
   //Google Map
-  var get_latitude = $('#google-map').data('latitude');
-  var get_longitude = $('#google-map').data('longitude');
+  var get_latitude = -6.884006;
+  var get_longitude = 107.563220;
 
   function initialize_google_map() {
     var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
